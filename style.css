@@ -1,14 +1,44 @@
+
 #clock {
+	position: absolute;
+	height: 600px;
+	width: 600px;
+	margin: 1% auto;
+	left: 0;
+	right: 0;
 }
 
-#clock img {
-}
+h1 {
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+	padding: 20px 0 0 0;
+	color: red;
+	font-size: 20px
 
-#hour {
 }
 
 #minute {
+	position: absolute;
+	left: 0;
+	right: 0;
 }
 
+#hour {
+	position: absolute;
+	left: 0;
+	right: 0;
+}
 #second {
+	position: absolute;
+	left: 0;
+	right: 0;
+	transform: rotate(79deg);
+
+}
+
+#clock img {
+	position: absolute;
+left: 0;
+	right: 0;
+
 }
